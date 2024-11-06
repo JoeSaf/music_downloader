@@ -46,7 +46,7 @@ This is a command-line tool for downloading audio from YouTube videos, designed 
 To download a song, simply run:
 
 ```bash
-music_downloader.py "Song Title Artist"
+musicx.py "Song Title Artist"
 ```
 
 1. The tool will search YouTube for the given query.
@@ -58,7 +58,7 @@ music_downloader.py "Song Title Artist"
 To view your previous searches, use the `history` argument:
 
 ```bash
-music_downloader.py history
+musicx.py history
 ```
 
 This will display a list of previous searches saved in `history.json`, showing the query, video title, and download date.
@@ -70,7 +70,7 @@ Let’s say you want to download the song “Shape of You” by Ed Sheeran. Here
 1. **Run the Download Command**:
    
    ```bash
-   music_downloader.py "Shape of You Ed Sheeran"
+   musicx.py "Shape of You Ed Sheeran"
    ```
 
 2. **View Search Results**:
@@ -85,7 +85,7 @@ Let’s say you want to download the song “Shape of You” by Ed Sheeran. Here
    - Later, you can view the search history by running:
 
      ```bash
-     music_downloader.py history
+     musicx.py history
      ```
 
    This will display all past downloads, including timestamps.
